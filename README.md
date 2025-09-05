@@ -1,7 +1,7 @@
 # chess-accounts-tracking
 Since I have numerous chess.com accounts, all with different ratings, I want to know which account has which rating in order to bring them all more or less around the same level.
 To do so, I created this litte project, here is how it works.
-![Ups, no image available](./chess_projectscheme.png)
+![Ups, no image available](./chess_project_scheme.png)
 
 An EventBridge rule triggers a Lambda function everyday at 07:00 a.m.
 The Lambda function calls the chess.com API to get the data of every account that I own. 
